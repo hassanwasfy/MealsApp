@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.hamalawey.mealz.R
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
-@EntryPoint
-@InstallIn
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private val viewModel: MealsViewModel by viewModels()
